@@ -4,7 +4,6 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
-
 LOG=docker-install.log
 USER_ID=$(id -u)
 if [ $USER_ID -ne 0 ]; then
